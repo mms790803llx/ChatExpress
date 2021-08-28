@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatExpress", "ChatExpress\ChatExpress.csproj", "{F34E0EAD-E941-4834-97E3-20729E64D515}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptLibrary", "..\CryptLibrary\CryptLibrary\CryptLibrary.csproj", "{F76A4CDA-E763-4555-981F-6CAE55CE5773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34E0EAD-E941-4834-97E3-20729E64D515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34E0EAD-E941-4834-97E3-20729E64D515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34E0EAD-E941-4834-97E3-20729E64D515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34E0EAD-E941-4834-97E3-20729E64D515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76A4CDA-E763-4555-981F-6CAE55CE5773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76A4CDA-E763-4555-981F-6CAE55CE5773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76A4CDA-E763-4555-981F-6CAE55CE5773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76A4CDA-E763-4555-981F-6CAE55CE5773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D54CA4-8B5E-4677-B286-A60AADE2C066}
+	EndGlobalSection
+EndGlobal

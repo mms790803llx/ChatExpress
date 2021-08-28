@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="eye.png" />
+    <None Remove="eye_slash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeviceId" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CryptLibrary\CryptLibrary\CryptLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="eye.png" />
+    <Resource Include="eye_slash.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="ChatExpress.ChatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatExpress"
+        mc:Ignorable="d"
+        Title="ChatWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Welcome," FontSize="18"/>
+            <TextBlock Text="User Name" Name="UserNameText" FontSize="18" FontWeight="Bold" />
+        </StackPanel>
+        <TextBlock Text="Contacts" FontSize="36" FontWeight="Bold"/>
+        <ScrollViewer>
+            <StackPanel x:Name="ContactRoot">
+            </StackPanel>
+        </ScrollViewer>
+        <Button Name="JoinButton" Content="Join a Chat" TextBlock.FontSize="18" />
+        <Button x:Name="CreateButton" Content="Create a Chat" TextBlock.FontSize="18"/>
+    </StackPanel>
+</Window>
